@@ -21,7 +21,14 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name="com.example.AutoBell.Activity.DashbordActivity"></activity>
-        <activity android:name="com.example.AutoBell.Activity.ProfileActivity" />
+        <activity android:name="com.example.AutoBell.Activity.ProfileActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <uses-library
             android:name="org.apache.http.legacy"
@@ -29,11 +36,7 @@
 
         <activity android:name="com.example.AutoBell.DemoCodeActivity_2" />
         <activity android:name="com.example.AutoBell.DemoCodeActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

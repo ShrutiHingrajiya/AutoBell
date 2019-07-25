@@ -14,6 +14,6 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        Log.e("Dummy","Dummy");
+        Log.e("Dummy1","Dummy");
     }
 }
