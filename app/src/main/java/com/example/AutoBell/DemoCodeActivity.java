@@ -53,7 +53,7 @@ public  class DemoCodeActivity extends AppCompatActivity implements ImageChooser
         setContentView(R.layout.activity_main);
 
 
-        Log.e("Parshva","******");
+        Log.e("Parshva########","******");
         Button buttonTakePicture = (Button) findViewById(R.id.buttonTakePicture);
         buttonTakePicture.setOnClickListener(new View.OnClickListener() {
 
