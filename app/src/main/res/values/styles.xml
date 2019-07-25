@@ -52,7 +52,7 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:layout_margin">@dimen/_10sdp</item>
-        <item name="android:padding">@dimen/_4sdp</item>
+        <item name="android:padding">@dimen/_2sdp</item>
         <item name="android:tint">@color/colorPrimary</item>
         <item name="android:fontFamily">@font/montserrat</item>
     </style>

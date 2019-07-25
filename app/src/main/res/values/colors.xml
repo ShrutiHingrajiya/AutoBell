@@ -4,7 +4,7 @@
     <color name="app_background_color">#F5F6FB</color>
 
     <color name="colorPrimary">#2D2D2E</color>
-    <color name="colorPrimaryDark">#48702B</color>
+    <color name="colorPrimaryDark">#2D2D2E</color>
     <color name="colorAccent">#F13828</color>
 
     <color name="black">#000000</color>
@@ -12,6 +12,8 @@
     <color name="white">#ffffff</color>
 
     <color name="text_color">#5F7897</color>
+
+    <color name="main_font_color">#2D2D2E</color>
 
 </resources>
 
