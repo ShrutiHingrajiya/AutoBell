@@ -20,13 +20,14 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.example.AutoBell.Activity.ProfileActivity"></activity>
+        <activity android:name="com.example.AutoBell.Activity.DashbordActivity"></activity>
+        <activity android:name="com.example.AutoBell.Activity.ProfileActivity" />
 
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
 
-        <activity android:name="com.example.AutoBell.DemoCodeActivity_2"></activity>
+        <activity android:name="com.example.AutoBell.DemoCodeActivity_2" />
         <activity android:name="com.example.AutoBell.DemoCodeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
