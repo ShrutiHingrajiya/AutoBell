@@ -54,10 +54,6 @@ public  class DemoCodeActivity extends AppCompatActivity implements ImageChooser
 
 
         Log.e("Parshva########","******");
-        Log.e("Parshva123","******");
-        Log.e("Mehul","******");
-        Log.e("Mehul","******");
-        Log.e("Mehul","******");
         Button buttonTakePicture = (Button) findViewById(R.id.buttonTakePicture);
         buttonTakePicture.setOnClickListener(new View.OnClickListener() {
 
