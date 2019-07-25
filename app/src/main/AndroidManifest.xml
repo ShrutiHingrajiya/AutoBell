@@ -25,10 +25,10 @@
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
-        <activity android:name="com.example.AutoBell.Main2Activity">
+        <activity android:name="com.example.AutoBell.DemoCodeActivity_2">
 
         </activity>
-        <activity android:name="com.example.AutoBell.MainActivity">
+        <activity android:name="com.example.AutoBell.DemoCodeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

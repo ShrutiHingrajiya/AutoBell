@@ -31,7 +31,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 
-public  class MainActivity extends AppCompatActivity implements ImageChooserListener, FileChooserListener, DatePickerFragment.OnDateSetListener, TimePickerFragment.OnTimeSetListener {
+public  class DemoCodeActivity extends AppCompatActivity implements ImageChooserListener, FileChooserListener, DatePickerFragment.OnDateSetListener, TimePickerFragment.OnTimeSetListener {
 
     private final static String TAG = "APP";
     private ImageView imageViewThumbnail;
@@ -184,7 +184,7 @@ public  class MainActivity extends AppCompatActivity implements ImageChooserList
     }
 
     private void loadImage(ImageView iv, final String path) {
-        Picasso.with(MainActivity.this)
+        Picasso.with(DemoCodeActivity.this)
                 .load(Uri.fromFile(new File(path)))
                 .fit()
                 .centerInside()
