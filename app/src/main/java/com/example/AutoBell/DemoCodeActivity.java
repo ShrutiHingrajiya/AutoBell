@@ -161,6 +161,7 @@ public class DemoCodeActivity extends AppCompatActivity implements ImageChooserL
                 Log.i(TAG, "Chosen Image: O - " + image.getFilePathOriginal());
                 Log.i(TAG, "Chosen Image: T - " + image.getFileThumbnail());
                 Log.i(TAG, "Chosen Image: Ts - " + image.getFileThumbnailSmall());
+                Log.i(TAG, "Chosen Rajal: Ts - " + image.getFileThumbnailSmall());
                 isActivityResultOver = true;
                 originalFilePath = image.getFilePathOriginal();
                 thumbnailFilePath = image.getFileThumbnail();
