@@ -10,6 +10,10 @@ import android.widget.DatePicker;
 import android.widget.ImageView;
 import android.widget.TimePicker;
 
+import com.example.AutoBell.Utils.CommonUtils;
+import com.example.AutoBell.Utils.DatePickerFragment;
+import com.example.AutoBell.Utils.TimePickerFragment;
+import com.example.autobell.R;
 import com.kbeanie.imagechooser.api.ChooserType;
 import com.kbeanie.imagechooser.api.ChosenFile;
 import com.kbeanie.imagechooser.api.ChosenImage;
@@ -18,9 +22,6 @@ import com.kbeanie.imagechooser.api.FileChooserListener;
 import com.kbeanie.imagechooser.api.FileChooserManager;
 import com.kbeanie.imagechooser.api.ImageChooserListener;
 import com.kbeanie.imagechooser.api.ImageChooserManager;
-import com.example.com.AutoBell.Utils.CommonUtils;
-import com.example.com.AutoBell.Utils.DatePickerFragment;
-import com.example.com.AutoBell.Utils.TimePickerFragment;
 import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 
@@ -28,12 +29,9 @@ import java.io.File;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import test.practical.com.androidprojectsstructuredemo.R;
 
 
 public  class MainActivity extends AppCompatActivity implements ImageChooserListener, FileChooserListener, DatePickerFragment.OnDateSetListener, TimePickerFragment.OnTimeSetListener {
-
-
 
     private final static String TAG = "APP";
     private ImageView imageViewThumbnail;

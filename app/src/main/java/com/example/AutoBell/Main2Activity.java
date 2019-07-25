@@ -16,8 +16,6 @@ import com.kbeanie.imagechooser.api.ImageChooserManager;
 
 public  class Main2Activity extends FileManagerUtill {
 
-
-
     private final static String TAG = "APP";
     private ImageView imageViewThumbnail;
     private ImageView imageViewThumbSmall;
