@@ -10,6 +10,8 @@ import android.widget.DatePicker;
 import android.widget.ImageView;
 import android.widget.TimePicker;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.example.AutoBell.Utils.CommonUtils;
 import com.example.AutoBell.Utils.DatePickerFragment;
 import com.example.AutoBell.Utils.TimePickerFragment;
@@ -27,11 +29,8 @@ import com.squareup.picasso.Picasso;
 
 import java.io.File;
 
-import androidx.appcompat.app.AppCompatActivity;
 
-
-
-public  class DemoCodeActivity extends AppCompatActivity implements ImageChooserListener, FileChooserListener, DatePickerFragment.OnDateSetListener, TimePickerFragment.OnTimeSetListener {
+public class DemoCodeActivity extends AppCompatActivity implements ImageChooserListener, FileChooserListener, DatePickerFragment.OnDateSetListener, TimePickerFragment.OnTimeSetListener {
 
     private final static String TAG = "APP";
     private ImageView imageViewThumbnail;
@@ -44,7 +43,6 @@ public  class DemoCodeActivity extends AppCompatActivity implements ImageChooser
     private String thumbnailFilePath;
     private String thumbnailSmallFilePath;
     private boolean isActivityResultOver = false;
-
 
 
     @Override
@@ -88,8 +86,8 @@ public  class DemoCodeActivity extends AppCompatActivity implements ImageChooser
                 //chooseFile();
 
 
-                TimePickerFragment timePickerFragment=new TimePickerFragment();
-                timePickerFragment.show(getSupportFragmentManager(),"Select Time");
+                TimePickerFragment timePickerFragment = new TimePickerFragment();
+                timePickerFragment.show(getSupportFragmentManager(), "Select Time");
                 //DatePickerFragment mDatePicker = new DatePickerFragment();
                 //mDatePicker.show(getSupportFragmentManager(), "Select date");
             }
@@ -97,7 +95,6 @@ public  class DemoCodeActivity extends AppCompatActivity implements ImageChooser
 
         imageViewThumbnail = (ImageView) findViewById(R.id.imageViewThumb);
         imageViewThumbSmall = (ImageView) findViewById(R.id.imageViewThumbSmall);
-
 
 
     }
@@ -164,6 +161,7 @@ public  class DemoCodeActivity extends AppCompatActivity implements ImageChooser
                 Log.i(TAG, "Chosen Image: O - " + image.getFilePathOriginal());
                 Log.i(TAG, "Chosen Image: T - " + image.getFileThumbnail());
                 Log.i(TAG, "Chosen Image: Ts - " + image.getFileThumbnailSmall());
+                Log.i(TAG, "Chosen Rajal: Ts - " + image.getFileThumbnailSmall());
                 isActivityResultOver = true;
                 originalFilePath = image.getFilePathOriginal();
                 thumbnailFilePath = image.getFileThumbnail();
@@ -228,11 +226,11 @@ public  class DemoCodeActivity extends AppCompatActivity implements ImageChooser
 
     private void populateFileDetails(ChosenFile file) {
         StringBuffer text = new StringBuffer();
-        Log.e(TAG,"File name: " + file.getFileName() + "\n\n");
-        Log.e(TAG,"File path: " + file.getFilePath() + "\n\n");
-        Log.e(TAG,"Mime type: " + file.getMimeType() + "\n\n");
-        Log.e(TAG,"File extn: " + file.getExtension() + "\n\n");
-        Log.e(TAG,"File size: " + file.getFileSize() / 1024 + "KB");
+        Log.e(TAG, "File name: " + file.getFileName() + "\n\n");
+        Log.e(TAG, "File path: " + file.getFilePath() + "\n\n");
+        Log.e(TAG, "Mime type: " + file.getMimeType() + "\n\n");
+        Log.e(TAG, "File extn: " + file.getExtension() + "\n\n");
+        Log.e(TAG, "File size: " + file.getFileSize() / 1024 + "KB");
         //textViewFileDetails.setText(text.toString());
     }
 
@@ -280,11 +278,11 @@ public  class DemoCodeActivity extends AppCompatActivity implements ImageChooser
 
     @Override
     public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-        CommonUtils.showLog("Hiii", String.valueOf(year)+"");
+        CommonUtils.showLog("Hiii", String.valueOf(year) + "");
     }
 
     @Override
     public void onDateSet(TimePicker view, int hourOfDay, int minute, String timevalue) {
-        CommonUtils.showLog("Hiii", String.valueOf(timevalue)+"");
+        CommonUtils.showLog("Hiii", String.valueOf(timevalue) + "");
     }
 }
