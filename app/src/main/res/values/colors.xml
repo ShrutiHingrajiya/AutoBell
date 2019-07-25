@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="app_background_color">#CACACA</color>
+    <color name="app_background_color">#F5F6FB</color>
 
-    <color name="colorPrimary">#669940</color>
+    <color name="colorPrimary">#2D2D2E</color>
     <color name="colorPrimaryDark">#48702B</color>
-    <color name="colorAccent">#FA9A50</color>
+    <color name="colorAccent">#F13828</color>
 
     <color name="black">#000000</color>
     <color name="gradient1">#ffb850</color>
     <color name="white">#ffffff</color>
+
+    <color name="text_color">#5F7897</color>
 
 </resources>
 
