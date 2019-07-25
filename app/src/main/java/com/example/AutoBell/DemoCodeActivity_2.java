@@ -14,7 +14,7 @@ import com.kbeanie.imagechooser.api.FileChooserManager;
 import com.kbeanie.imagechooser.api.ImageChooserManager;
 
 
-public  class Main2Activity extends FileManagerUtill {
+public  class DemoCodeActivity_2 extends FileManagerUtill {
 
     private final static String TAG = "APP";
     private ImageView imageViewThumbnail;
@@ -86,7 +86,7 @@ public  class Main2Activity extends FileManagerUtill {
         buttonTakePermission.setOnClickListener(v -> {
             //chooseFile();
 
-            CommonUtils.grantallpermission(Main2Activity.this);
+            CommonUtils.grantallpermission(DemoCodeActivity_2.this);
         });
 
 
