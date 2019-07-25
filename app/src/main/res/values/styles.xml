@@ -24,7 +24,7 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:layout_width">wrap_content</item>
-        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:fontFamily">@font/montserrat</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_weight">1</item>
         <item name="android:textColor">@color/colorPrimary</item>
@@ -42,7 +42,7 @@
         <item name="android:layout_margin">@dimen/_10sdp</item>
         <item name="android:padding">@dimen/_2sdp</item>
         <item name="android:tint">@color/colorPrimary</item>
-        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:fontFamily">@font/montserrat</item>
     </style>
 
 
@@ -54,7 +54,7 @@
         <item name="android:layout_margin">@dimen/_10sdp</item>
         <item name="android:padding">@dimen/_4sdp</item>
         <item name="android:tint">@color/colorPrimary</item>
-        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:fontFamily">@font/montserrat</item>
     </style>
 
     <style name="actionbar_back">
@@ -66,7 +66,7 @@
         <item name="android:layout_margin">@dimen/_10sdp</item>
         <item name="android:tint">@color/colorPrimary</item>
         <item name="android:rotation">180</item>
-        <item name="android:fontFamily">@font/raleway</item>
+        <item name="android:fontFamily">@font/montserrat</item>
     </style>
 
 
