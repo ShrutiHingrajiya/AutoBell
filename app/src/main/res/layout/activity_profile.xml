@@ -1,25 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/app_background_color"
     tools:context="com.example.AutoBell.Activity.ProfileActivity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <ImageView
-            style="@style/actionbar_menu"
-            android:src="@drawable/ic_launcher_background" />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:background="@color/colorAccent">
 
-        <TextView
-            style="@style/style_actionbar_title"
-            android:text="fhgjfgjhgd" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/actionbar_menu"
+                    android:src="@drawable/ic_launcher_background" />
+
+                <TextView
+                    style="@style/style_actionbar_title"
+                    android:text="fhgjfgjhgd" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_56sdp"
+            android:layout_height="@dimen/_56sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_minus25sdp"
+            android:src="@drawable/ic_launcher_background"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="@dimen/_1sdp" />
+
 
     </LinearLayout>
 

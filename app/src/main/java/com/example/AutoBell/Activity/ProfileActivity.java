@@ -3,6 +3,7 @@ package com.example.AutoBell.Activity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import com.example.autobell.R;
 
@@ -13,6 +14,6 @@ public class ProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        /*Log.e("Dummy","Dummy");*/
+        Log.e("Dummy","Dummy");
     }
 }
