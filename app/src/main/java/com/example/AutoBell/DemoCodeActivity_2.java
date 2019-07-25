@@ -32,7 +32,7 @@ public  class DemoCodeActivity_2 extends FileManagerUtill {
     @Override
     public Void OnImageChosanResponce(String Path, String Base64) {
         Log.e("Path",Path);
-        Log.e("Base64___shruti",Base64);
+        Log.e("Base64",Base64);
         return null;
     }
 
