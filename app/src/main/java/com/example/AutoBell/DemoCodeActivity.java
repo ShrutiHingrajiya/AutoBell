@@ -53,7 +53,7 @@ public  class DemoCodeActivity extends AppCompatActivity implements ImageChooser
         setContentView(R.layout.activity_main);
 
 
-        Log.e("Parshva","******");
+        Log.e("Parshva123","******");
         Log.e("Mehul","******");
         Log.e("Mehul","******");
         Log.e("Mehul","******");
