@@ -21,7 +21,9 @@
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name="com.example.AutoBell.Activity.OrderDetailsActivity"></activity>
-        <activity android:name="com.example.AutoBell.Activity.orders_autobellActivity"></activity>
+        <activity android:name="com.example.AutoBell.Activity.orders_autobellActivity">
+
+        </activity>
 
 
 
