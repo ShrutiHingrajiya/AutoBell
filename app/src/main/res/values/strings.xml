@@ -1,5 +1,19 @@
 <resources>
     <string name="app_name">AndroidProjectsStructureDemo</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_service">Treatment / Service</string>
+    <string name="menu_order_history">Order History</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_package">Package</string>
+    <string name="menu_quickchat">Quick Chat</string>
+    <string name="menu_helpsupport">Help / Support</string>
+    <string name="menu_logout">Logout</string>
+    <string name="header_dashboard">Dashboard</string>
+
+    <string name="dummytext">I am in your city right now near by in your city right nowright now near by in your city right noright now near by in your city right no near by</string>
+
+
     <string name="treatments">Treatments</string>
     <string name="service">Service</string>
 
