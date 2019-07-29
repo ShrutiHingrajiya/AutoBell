@@ -1,24 +1,40 @@
 <resources>
     <string name="app_name">AndroidProjectsStructureDemo</string>
-    <string name="treatments">Treatments</string>
-    <string name="service">Service</string>
-
-    <string name="paintprotection">Paint Protection</string>
-    <string name="paintdocumentation">Paint Docontamination</string>
-    <string name="glasstreament">Glass Treatment</string>
-    <string name="externalplastictreatment">External Plastic Treatment</string>
-    <string name="paintworkcorrection">PaintWork Correction</string>
-    <string name="wheeltreatment">Wheel Treatment</string>
-    <string name="interiortreatment">Interior Treatment</string>
-    <string name="interiortreatment1">Interior \nTreatment</string>
-    <string name="washingtreatments">Washing Treatments</string>
-    <string name="external_plastic_treatment">External Plastic Treatment</string>
-    <string name="client_review">Client Review</string>
-    <string name="i_highly_recommend_autobell_to_my_friends_family_members_they_are_running_a_business_that_knows_the_value_of_its_customers_if_you_want_a_quality_car_wash_for_an_affordable_price_go_to_them_plus_i_loved_their_water_conservation_concept"><![CDATA[I highly recommend Autobell to my friends & family members, they are running a business that knows the value of its customers. If you want a quality car wash for an affordable price, go to them. Plus I loved their water conservation concept.]]></string>
-    <string name="back">Back</string>
-    <string name="view_less">View Less</string>
-    <string name="cars">Cars</string>
-    <string name="validity">Validity</string>
-
-
+    <string name="welcome_to">Welcome to</string>
+    <string name="the_new">the new</string>
+    <string name="autobell">Autobell</string>
+    <string name="new_level_of_features">New level of features</string>
+    <string name="with_new_app">With new app</string>
+    <string name="login">Log in</string>
+    <string name="g">G</string>
+    <string name="become_a_client">Become a Client</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password_here">Enter Your Password Here</string>
+    <string name="enter_your_name_here">Enter Your Name Here</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email_here">Enter Your Email here</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_your_number_here">Enter Your NUmber Here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="orders">Orders</string>
+    <string name="vehicle_2">Vehicle-2</string>
+    <string name="glass_treatment_washing">Glass Treatment,Washing</string>
+    <string name="_800_inr">800 INR</string>
+    <string name="pick_up">Pick-Up</string>
+    <string name="_24_jun_2019_24_36">24,jun,2019 24:36</string>
+    <string name="abe564872">ABE564872</string>
+    <string name="order_details">Order Details</string>
+    <string name="total_taken_time">Total Taken Time</string>
+    <string name="_1_30">1:30</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="glass_treatment">Glass Treatment</string>
+    <string name="_09_00_00">09:00:00</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="_804_elite_business_hub_beside_mercedes_benz_showroom_opp_shapath_hexa_sola_s_g_highway_ahmedabad_gujarat_380060">804,Elite Business Hub,Beside Mercedes Benz Showroom Opp Shapath Hexa ,Sola ,S.G.Highway ,Ahmedabad,Gujarat 380060</string>
+    <string name="order_timeline">Order Timeline</string>
+    <string name="bmw_nm4">BMW M4</string>
+    <string name="rolls_royce_phantom">Rolls Royce Phantom</string>
 </resources>
