@@ -27,8 +27,8 @@
 
 
 
-        <activity android:name="com.example.AutoBell.Activity.DashbordActivity"></activity>
-        <activity android:name="com.example.AutoBell.Activity.ProfileActivity">
+        <!--<activity android:name="com.example.AutoBell.Activity.DashbordActivity"></activity>-->
+        <activity android:name="com.example.AutoBell.Activity.ProfileActivity"></activity>
 
         <activity android:name="com.example.AutoBell.Activity.PackageActivity"></activity>
         <activity android:name="com.example.AutoBell.Activity.QChatActivity" />
@@ -41,7 +41,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.AutoBell.Activity.ProfileActivity" />
+
 
         <uses-library
             android:name="org.apache.http.legacy"
