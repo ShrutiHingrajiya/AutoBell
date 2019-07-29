@@ -20,6 +20,13 @@
         <item name="android:windowExitAnimation">@anim/slid_down_animation</item>
     </style>
 
+
+    <style name="DialogAnimationfromRight">
+        <item name="android:fontFamily">@font/montserrat</item>
+        <item name="android:windowEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_right_out</item>
+    </style>
+
     <style name="style_actionbar_title">
         <item name="android:gravity">center_vertical</item>
         <item name="android:layout_gravity">center_vertical</item>
