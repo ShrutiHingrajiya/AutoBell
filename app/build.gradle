@@ -116,4 +116,7 @@ dependencies {
     //Multi Dexing
     implementation 'com.android.support:multidex:1.0.3'
 
+    // ZigZag Shape
+    implementation 'com.github.beigirad:ZigzagView:1.0.7'
+
 }
