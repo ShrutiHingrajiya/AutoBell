@@ -34,6 +34,7 @@
                     />
 
                 <ImageView
+                    android:id="@+id/imgProfileChangePassword"
                     android:layout_width="@dimen/_24sdp"
                     android:layout_height="@dimen/_24sdp"
                     android:layout_gravity="center_vertical"
@@ -244,26 +245,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_14sdp"
                 android:orientation="horizontal">
 
-                <LinearLayout
-                    android:layout_width="@dimen/_32sdp"
-                    android:layout_height="@dimen/_32sdp"
-                    android:background="@drawable/circle_shape_color_primary_solid">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        app:srcCompat="@drawable/ic_profile_home" />
-
-                </LinearLayout>
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_profile_home" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginVertical="@dimen/_6sdp"
                     android:text="Addresses"
                     android:textColor="@color/main_font_color"
                     android:textSize="@dimen/_14ssp"
@@ -278,6 +273,7 @@
                     app:srcCompat="@drawable/ic_next" />
 
                 <TextView
+                    android:id="@+id/tvProfileAddAddress"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -290,10 +286,12 @@
                     android:textStyle="bold" />
 
                 <ImageView
+                    android:id="@+id/imgProfileAddAddress"
                     android:layout_width="@dimen/_12sdp"
                     android:layout_height="@dimen/_12sdp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/ic_add" />
 
@@ -302,7 +300,9 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginRight="@dimen/_10sdp"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="@dimen/_4sdp"
                 app:cardElevation="@dimen/_6sdp"
@@ -320,29 +320,24 @@
                     android:textSize="@dimen/_12ssp" />
             </androidx.cardview.widget.CardView>
 
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_14sdp"
                 android:orientation="horizontal">
 
-                <LinearLayout
-                    android:layout_width="@dimen/_32sdp"
-                    android:layout_height="@dimen/_32sdp"
-                    android:background="@drawable/circle_shape_color_primary_solid">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        app:srcCompat="@drawable/ic_profile_vehicles" />
-
-                </LinearLayout>
+                <ImageView
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_profile_vehicles" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginVertical="@dimen/_6sdp"
                     android:text="Vehicles"
                     android:textColor="@color/main_font_color"
                     android:textSize="@dimen/_14ssp"
@@ -357,6 +352,7 @@
                     app:srcCompat="@drawable/ic_next" />
 
                 <TextView
+                    android:id="@+id/tvProfileAddVehicle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
@@ -369,10 +365,12 @@
                     android:textStyle="bold" />
 
                 <ImageView
+                    android:id="@+id/imgProfileAddVehicle"
                     android:layout_width="@dimen/_12sdp"
                     android:layout_height="@dimen/_12sdp"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
                     android:scaleType="fitXY"
                     app:srcCompat="@drawable/ic_add" />
 
@@ -381,12 +379,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/_10sdp"
+
                 android:orientation="horizontal">
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_marginRight="@dimen/_3sdp"
                     app:cardBackgroundColor="@color/white"
                     app:cardCornerRadius="@dimen/_4sdp"
                     app:cardElevation="@dimen/_6sdp"
@@ -422,7 +423,9 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="@dimen/_6sdp"
+                    android:layout_marginLeft="@dimen/_3sdp"
+
+                    android:layout_marginTop="@dimen/_4sdp"
                     app:cardBackgroundColor="@color/white"
                     app:cardCornerRadius="@dimen/_4sdp"
                     app:cardElevation="@dimen/_6sdp"
