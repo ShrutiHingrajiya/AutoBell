@@ -36,7 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Paint Protection"
-                android:textColor="@color/colorPrimary"
+                android:textColor="@color/main_font_color"
                 android:textSize="@dimen/_12ssp" />
 
             <TextView
