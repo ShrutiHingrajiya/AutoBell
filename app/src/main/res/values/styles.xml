@@ -9,7 +9,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
-
+<!--nvjndvn-->
     <style name="DatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
         <item name="colorAccent">@color/colorPrimary</item>
     </style>
@@ -72,6 +72,20 @@
     <style name="TimePickerTheme" parent="Theme.MaterialComponents.Light.Dialog">
 
     </style>
+
+    <style name="DialogAnimationOutUpInUp">
+        <item name="android:windowEnterAnimation">@anim/slide_down</item>
+        <item name="android:windowExitAnimation">@anim/slide_up</item>
+    </style>
+
+    <style name="mytheme" parent="android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
 
     <style name="SheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
         <item name="android:windowIsTranslucent">true</item>

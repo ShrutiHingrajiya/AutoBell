@@ -30,6 +30,10 @@
         <activity android:name="com.example.AutoBell.Activity.DashbordActivity"></activity>
         <activity android:name="com.example.AutoBell.Activity.ProfileActivity">
 
+        <activity android:name="com.example.AutoBell.Activity.PackageActivity"></activity>
+        <activity android:name="com.example.AutoBell.Activity.QChatActivity" />
+        <activity android:name="com.example.AutoBell.Activity.NotificationActivity" />
+        <activity android:name="com.example.AutoBell.Activity.DashbordActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -37,14 +41,14 @@
             </intent-filter>
         </activity>
 
+        <activity android:name="com.example.AutoBell.Activity.ProfileActivity" />
+
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
 
         <activity android:name="com.example.AutoBell.DemoCodeActivity_2" />
-        <activity android:name="com.example.AutoBell.DemoCodeActivity">
-
-        </activity>
+        <activity android:name="com.example.AutoBell.DemoCodeActivity" />
     </application>
 
 </manifest>

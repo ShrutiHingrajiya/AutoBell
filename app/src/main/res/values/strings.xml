@@ -37,4 +37,40 @@
     <string name="order_timeline">Order Timeline</string>
     <string name="bmw_nm4">BMW M4</string>
     <string name="rolls_royce_phantom">Rolls Royce Phantom</string>
+    <string name="app_name1">AndroidProjectsStructureDemo</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_service">Treatment / Service</string>
+    <string name="menu_order_history">Order History</string>
+    <string name="menu_notification">Notification</string>
+    <string name="menu_package">Package</string>
+    <string name="menu_quickchat">Quick Chat</string>
+    <string name="menu_helpsupport">Help / Support</string>
+    <string name="menu_logout">Logout</string>
+    <string name="header_dashboard">Dashboard</string>
+
+    <string name="dummytext">I am in your city right now near by in your city right nowright now near by in your city right noright now near by in your city right no near by</string>
+
+
+    <string name="treatments">Treatments</string>
+    <string name="service">Service</string>
+
+    <string name="paintprotection">Paint Protection</string>
+    <string name="paintdocumentation">Paint Docontamination</string>
+    <string name="glasstreament">Glass Treatment</string>
+    <string name="externalplastictreatment">External Plastic Treatment</string>
+    <string name="paintworkcorrection">PaintWork Correction</string>
+    <string name="wheeltreatment">Wheel Treatment</string>
+    <string name="interiortreatment">Interior Treatment</string>
+    <string name="interiortreatment1">Interior \nTreatment</string>
+    <string name="washingtreatments">Washing Treatments</string>
+    <string name="external_plastic_treatment">External Plastic Treatment</string>
+    <string name="client_review">Client Review</string>
+    <string name="i_highly_recommend_autobell_to_my_friends_family_members_they_are_running_a_business_that_knows_the_value_of_its_customers_if_you_want_a_quality_car_wash_for_an_affordable_price_go_to_them_plus_i_loved_their_water_conservation_concept"><![CDATA[I highly recommend Autobell to my friends & family members, they are running a business that knows the value of its customers. If you want a quality car wash for an affordable price, go to them. Plus I loved their water conservation concept.]]></string>
+    <string name="back">Back</string>
+    <string name="view_less">View Less</string>
+    <string name="cars">Cars</string>
+    <string name="validity">Validity</string>
+
+
 </resources>

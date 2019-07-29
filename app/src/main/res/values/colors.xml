@@ -26,6 +26,10 @@
     <color name="grey_900">#212121</color>
     <!-- Grey -->
 
+    <color name="red">#CD2122</color>
+    <color name="red1">#CD2122</color>
+
+
     <color name="main_font_color">#2D2D2E</color>
 
 </resources>
