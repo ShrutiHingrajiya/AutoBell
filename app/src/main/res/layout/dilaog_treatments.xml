@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="@dimen/_60sdp"
+    android:layout_marginTop="@dimen/_80sdp"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/_4sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_6sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4sdp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="@dimen/_4sdp"
+                android:layout_weight="1"
+                android:gravity="end"
+                android:text="View Less"
+                android:textAlignment="textEnd"></TextView>
+
+            <ImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_4sdp"
+                android:rotation="180"
+                android:src="@drawable/ic_back"
+                android:tint="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/external_plastic_treatment"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:alpha="0.6"
+            android:text="Those rims, bumpers and grills of your car must look impeccable too,
+if you want your car to demand royalty. We specialize in polishing and protecting
+the chrome finishing of your car. If you have a vintage car that needs special attention
+and restoration, we are your people. After our restoration and polishing treatments,
+your vintage car will be gleaming with a new-found radiance."
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_10ssp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="@string/client_review"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_12ssp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="@dimen/_25sdp"
+                            android:padding="@dimen/_4sdp"
+                            android:src="@drawable/ic_back"
+                            android:tint="@color/black" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_70sdp"
+                            android:layout_height="@dimen/_70sdp"
+                            android:layout_gravity="center"
+                            android:padding="@dimen/_4sdp"
+                            android:src="@drawable/ic_person_photo"
+                            android:tint="@color/black" />
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="@dimen/_25sdp"
+                            android:padding="@dimen/_4sdp"
+                            android:rotation="180"
+                            android:src="@drawable/ic_back"
+                            android:tint="@color/black" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginHorizontal="@dimen/_60sdp"
+                        android:layout_marginTop="@dimen/_minus10sdp"
+                        android:padding="@dimen/_4sdp"
+                        android:src="@drawable/ic_five_star" />
+
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:text="@string/i_highly_recommend_autobell_to_my_friends_family_members_they_are_running_a_business_that_knows_the_value_of_its_customers_if_you_want_a_quality_car_wash_for_an_affordable_price_go_to_them_plus_i_loved_their_water_conservation_concept"
+            android:textSize="@dimen/_10ssp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="Sameer Shah"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/_10ssp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/_60sdp"
+            android:padding="@dimen/_4sdp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/rounded_rect_without_border_coloracent"
+            android:gravity="center"
+            android:paddingHorizontal="@dimen/_30sdp"
+            android:text="Proceed"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
