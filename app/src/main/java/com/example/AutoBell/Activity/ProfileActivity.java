@@ -24,7 +24,6 @@ public class ProfileActivity extends AppCompatActivity {
     TextView tvProfileAddAddress;
     @BindView(R.id.imgProfileAddAddress)
     ImageView imgProfileAddAddress;
-
     LinearLayout lnProfileAddAddress;
     CardView cardProfileSaveAddress;
     LinearLayout lnShowAddress;
@@ -36,6 +35,8 @@ public class ProfileActivity extends AppCompatActivity {
     ImageView imgProfileAddVehicle;
     @BindView(R.id.imgProfileChangePassword)
     ImageView imgProfileChangePassword;
+    @BindView(R.id.img_back_profile)
+    ImageView mImgBackProfile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +49,14 @@ public class ProfileActivity extends AppCompatActivity {
     }
 
     private void setListeners() {
+
+
+        mImgBackProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
 
         imgProfileChangePassword.setOnClickListener(new View.OnClickListener() {
             @Override

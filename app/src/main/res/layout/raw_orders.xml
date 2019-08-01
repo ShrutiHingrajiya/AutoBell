@@ -1,28 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:paddingHorizontal="@dimen/_6sdp"
     android:paddingVertical="@dimen/_2sdp">
+
     <androidx.cardview.widget.CardView
-        app:cardCornerRadius="@dimen/_4sdp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_2sdp">
+        android:id="@+id/card_order_list"
+        android:layout_margin="@dimen/_2sdp"
+        app:cardCornerRadius="@dimen/_4sdp">
+
         <LinearLayout
-            android:layout_marginHorizontal="@dimen/_10sdp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_4sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
             android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -31,42 +36,48 @@
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/_16ssp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
                     android:text="@string/abe564872"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="@dimen/_16ssp"
+                    android:textSize="@dimen/_14ssp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:gravity="end"
                     android:text="@string/_24_jun_2019_24_36"
                     android:textColor="@color/grey_600"
-                    android:textSize="@dimen/_12ssp"
-                    android:gravity="end"/>
+                    android:textSize="@dimen/_12ssp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="@dimen/_20sdp"
                     android:layout_height="@dimen/_20sdp"
                     android:src="@drawable/ic_car_orders" />
+
                 <TextView
-                    android:padding="@dimen/_8sdp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="0.2"
+                    android:padding="@dimen/_8sdp"
                     android:text="@string/vehicle_2"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/_12ssp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -76,36 +87,39 @@
                     android:textColor="@color/grey_600"
                     android:textSize="@dimen/_10ssp" />
             </LinearLayout>
+
             <View
-                android:backgroundTint="@color/colorAccent"
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
                 android:layout_marginTop="@dimen/_6sdp"
-                android:background="@color/colorPrimary">
-            </View>
+                android:background="@color/colorPrimary"
+                android:backgroundTint="@color/colorAccent"></View>
+
             <LinearLayout
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:layout_marginTop="@dimen/_4sdp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:gravity="center"
                 android:orientation="horizontal">
+
                 <TextView
-                    android:layout_weight="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/_10ssp"
+                    android:layout_weight="1"
+                    android:text="@string/pick_up"
                     android:textColor="@color/grey_600"
-                    android:text="@string/pick_up"/>
+                    android:textSize="@dimen/_10ssp" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="end"
                     android:text="@string/_800_inr"
-                    android:textStyle="bold"
                     android:textColor="@color/colorPrimary"
-                    android:textSize="@dimen/_10ssp" />
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>

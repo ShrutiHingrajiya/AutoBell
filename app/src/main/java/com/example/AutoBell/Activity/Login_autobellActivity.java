@@ -30,6 +30,12 @@ public class Login_autobellActivity extends AppCompatActivity {
         Intent i = new Intent(Login_autobellActivity.this, Become_A_ClientActivity.class);
         startActivity(i);
     }
+    @OnClick(R.id.btn_login)
+    public void onViewClicked() {
+
+        Intent i = new Intent(Login_autobellActivity.this, DashbordActivity.class);
+        startActivity(i);
+    }
 
     @Override
     public void onBackPressed() {

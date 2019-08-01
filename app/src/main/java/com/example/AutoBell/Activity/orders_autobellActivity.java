@@ -1,8 +1,8 @@
 package com.example.AutoBell.Activity;
 
 import android.annotation.SuppressLint;
-import android.content.Context;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -17,8 +17,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class orders_autobellActivity extends AppCompatActivity {
-
-    Context ctx;
     Orders_Adapter adpter;
 
     @BindView(R.id.img_back)
@@ -37,10 +35,21 @@ public class orders_autobellActivity extends AppCompatActivity {
         ButterKnife.bind(this);
 
         CallMyRecycellist();
+        this.setClickListner();
     }
+
+    private void setClickListner() {
+        imgBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+    }
+
     private void CallMyRecycellist() {
-        adpter = new Orders_Adapter(ctx);
-        @SuppressLint("WrongConstant") LinearLayoutManager layoutManager = new LinearLayoutManager(getApplicationContext(), OrientationHelper.VERTICAL, false);
+        adpter = new Orders_Adapter(this);
+        @SuppressLint("WrongConstant") LinearLayoutManager layoutManager = new LinearLayoutManager(this, OrientationHelper.VERTICAL, false);
         recyclerOrders.setLayoutManager(layoutManager);
         recyclerOrders.setAdapter(adpter);
     }

@@ -152,6 +152,7 @@
             android:background="@drawable/round_rect_shape"
             android:padding="@dimen/_20sdp"
             android:layout_weight="0.2"
+            android:id="@+id/btn_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/login"

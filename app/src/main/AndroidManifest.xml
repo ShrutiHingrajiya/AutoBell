@@ -20,27 +20,25 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.example.AutoBell.Activity.OrderDetailsActivity"></activity>
-        <activity android:name="com.example.AutoBell.Activity.orders_autobellActivity">
-
-        </activity>
-
-
-
-        <!--<activity android:name="com.example.AutoBell.Activity.DashbordActivity"></activity>-->
-        <activity android:name="com.example.AutoBell.Activity.ProfileActivity"></activity>
-
-        <activity android:name="com.example.AutoBell.Activity.PackageActivity"></activity>
-        <activity android:name="com.example.AutoBell.Activity.QChatActivity" />
-        <activity android:name="com.example.AutoBell.Activity.NotificationActivity" />
         <activity android:name="com.example.AutoBell.Activity.DashbordActivity">
-            <intent-filter>
+          <!--  <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            </intent-filter>-->
 
+        </activity>
+        <activity android:name="com.example.AutoBell.Activity.ProfileActivity">
+
+
+        </activity>
+        <activity android:name="com.example.AutoBell.Activity.TreatmentsActivity">
+            <!--  <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>-->
+        </activity>
 
 
         <uses-library
@@ -48,7 +46,26 @@
             android:required="false" />
 
         <activity android:name="com.example.AutoBell.DemoCodeActivity_2" />
-        <activity android:name="com.example.AutoBell.DemoCodeActivity" />
+        <activity android:name="com.example.AutoBell.DemoCodeActivity">
+
+        </activity>
+        <activity android:name="com.example.AutoBell.Activity.NotificationActivity" />
+        <activity android:name="com.example.AutoBell.Activity.PackageActivity" />
+        <activity android:name="com.example.AutoBell.Activity.QChatActivity" />
+        <activity android:name="com.example.AutoBell.Activity.orders_autobellActivity" />
+        <activity android:name="com.example.AutoBell.Activity.Welcome_AutobellActivity" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.AutoBell.Activity.Login_autobellActivity" />
+        <activity android:name="com.example.AutoBell.Activity.Become_A_ClientActivity" >
+
+        </activity>
+        <activity android:name="com.example.AutoBell.Activity.OrderDetailsActivity" />
     </application>
 
 </manifest>

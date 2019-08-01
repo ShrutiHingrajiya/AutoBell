@@ -35,7 +35,7 @@
     <string name="vehicles">Vehicles</string>
     <string name="_804_elite_business_hub_beside_mercedes_benz_showroom_opp_shapath_hexa_sola_s_g_highway_ahmedabad_gujarat_380060">804,Elite Business Hub,Beside Mercedes Benz Showroom Opp Shapath Hexa ,Sola ,S.G.Highway ,Ahmedabad,Gujarat 380060</string>
     <string name="order_timeline">Order Timeline</string>
-    <string name="bmw_nm4">BMW M4</string>
+    <string name="bmw_nm4">BMW \n M4</string>
     <string name="rolls_royce_phantom">Rolls Royce Phantom</string>
     <string name="app_name1">AndroidProjectsStructureDemo</string>
     <string name="menu_dashboard">Dashboard</string>

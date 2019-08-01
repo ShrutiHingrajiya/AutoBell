@@ -1,10 +1,10 @@
 package com.example.AutoBell.Activity;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.AutoBell.Utils.MenuDialog;
 import com.example.autobell.R;
@@ -18,8 +18,7 @@ public class DashbordActivity extends AppCompatActivity {
 
     @BindView(R.id.img_dashboard_menu)
     ImageView imgDashboardMenu;
-    @BindView(R.id.ll_main)
-    LinearLayout llMain;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

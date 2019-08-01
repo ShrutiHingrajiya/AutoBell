@@ -116,8 +116,8 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/start_time"
                                 android:layout_marginEnd="@dimen/_4sdp"
+                                android:text="@string/start_time"
                                 android:textColor="@color/grey_600"
                                 android:textSize="@dimen/_12ssp" />
 
@@ -226,6 +226,7 @@
                         android:textSize="@dimen/_16ssp"
                         android:textStyle="bold" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -237,6 +238,7 @@
                         android:layout_marginLeft="@dimen/_4sdp"
                         android:layout_marginTop="@dimen/_4sdp"
                         android:layout_marginRight="@dimen/_3sdp"
+                        android:layout_marginBottom="@dimen/_4sdp"
                         app:cardBackgroundColor="@color/white"
                         app:cardCornerRadius="@dimen/_4sdp"
                         app:cardElevation="@dimen/_6sdp"
@@ -274,6 +276,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@dimen/_4sdp"
                         android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginBottom="@dimen/_4sdp"
                         app:cardBackgroundColor="@color/white"
                         app:cardCornerRadius="@dimen/_4sdp"
                         app:cardElevation="@dimen/_6sdp"
@@ -304,6 +307,7 @@
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -313,41 +317,310 @@
                         android:id="@+id/text_message"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_rectangle"
                         android:layout_marginTop="@dimen/_20sdp"
+                        android:background="@drawable/bg_rectangle"
                         android:padding="8dp"
-                        android:text="@string/_804_elite_business_hub_beside_mercedes_benz_showroom_opp_shapath_hexa_sola_s_g_highway_ahmedabad_gujarat_380060"/>
+                        android:text="@string/_804_elite_business_hub_beside_mercedes_benz_showroom_opp_shapath_hexa_sola_s_g_highway_ahmedabad_gujarat_380060" />
 
                     <ImageView
                         android:id="@+id/image_arrow"
-                        android:layout_marginTop="-1.5dp"
                         android:layout_width="16dp"
                         android:layout_height="16dp"
                         android:layout_gravity="center_horizontal"
-                        android:background="@drawable/icon_arrow_down"/>
+                        android:layout_marginTop="-1.5dp"
+                        android:background="@drawable/icon_arrow_down" />
                 </LinearLayout>
 
                 <androidx.cardview.widget.CardView
-                    app:cardCornerRadius="@dimen/_4sdp"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="@dimen/_4sdp">
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
-                        <TextView
+
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="@string/order_timeline"
-                            android:textSize="@dimen/_16ssp"
-                            android:textColor="@color/colorPrimary"
-                            android:textStyle="bold"/>
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/order_timeline"
+                                android:textColor="@color/colorPrimary"
+                                android:textSize="@dimen/_16ssp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/_10sdp"
+                                    android:gravity="end"
+                                    android:paddingStart="@dimen/_20sdp"
+                                    android:paddingTop="@dimen/_4sdp">
+
+                                    <FrameLayout
+                                        android:layout_width="@dimen/_20sdp"
+                                        android:layout_height="match_parent">
+
+                                        <View
+                                            android:layout_width="@dimen/_1sdp"
+                                            android:layout_height="match_parent"
+                                            android:layout_gravity="center"
+                                            android:background="@color/colorPrimary" />
+
+                                        <de.hdodenhof.circleimageview.CircleImageView
+                                            android:layout_width="@dimen/_8sdp"
+                                            android:layout_height="@dimen/_8sdp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:src="@color/colorPrimary" />
+                                    </FrameLayout>
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_weight="0.8">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="@dimen/_10sdp"
+                                        android:orientation="vertical"
+                                        android:paddingBottom="@dimen/_10sdp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Order Confirmed"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/_12ssp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:alpha="0.8"
+                                            android:text="Your Order is confirmed with our serviceman.Once Order Will place you'll get notification."
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/_10ssp" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="end"
+                                    android:paddingStart="@dimen/_20sdp">
+
+                                    <FrameLayout
+                                        android:layout_width="@dimen/_20sdp"
+                                        android:layout_height="match_parent">
+
+                                        <View
+                                            android:layout_width="@dimen/_1sdp"
+                                            android:layout_height="match_parent"
+                                            android:layout_gravity="center"
+                                            android:background="@color/colorPrimary" />
+
+                                        <de.hdodenhof.circleimageview.CircleImageView
+                                            android:layout_width="@dimen/_12sdp"
+                                            android:layout_height="@dimen/_12sdp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:layout_marginTop="@dimen/_2sdp"
+                                            android:src="@color/colorAccent" />
+                                    </FrameLayout>
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_weight="0.8">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:paddingBottom="@dimen/_10sdp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Order Is Not Placed Yet"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/_12ssp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:alpha="0.8"
+                                            android:text="Your Order is confirmed with our serviceman.Once Order Will place you'll get notification."
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/_10ssp"
+                                            android:visibility="invisible" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:gravity="end"
+                                    android:paddingStart="@dimen/_20sdp">
+
+                                    <FrameLayout
+                                        android:layout_width="@dimen/_20sdp"
+                                        android:layout_height="match_parent">
+
+                                        <View
+                                            android:layout_width="@dimen/_1sdp"
+                                            android:layout_height="match_parent"
+                                            android:layout_gravity="center"
+                                            android:background="@color/colorPrimary" />
+
+                                        <de.hdodenhof.circleimageview.CircleImageView
+                                            android:layout_width="@dimen/_10sdp"
+                                            android:layout_height="@dimen/_10sdp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:layout_marginTop="@dimen/_4sdp"
+                                            android:src="@color/white"
+                                            app:civ_border_color="@color/colorPrimary"
+                                            app:civ_border_width="@dimen/_1sdp" />
+                                    </FrameLayout>
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_weight="0.8">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:paddingBottom="@dimen/_10sdp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:alpha="0.5"
+                                            android:text="Order Started On"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/_12ssp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:alpha="0.8"
+                                            android:text="Your Order is confirmed with our serviceman.Once Order Will place you'll get notification."
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/_10ssp"
+                                            android:visibility="invisible" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="end"
+                                    android:paddingStart="@dimen/_20sdp">
+
+                                    <FrameLayout
+                                        android:layout_width="@dimen/_20sdp"
+                                        android:layout_height="@dimen/_50sdp">
+
+                                        <View
+                                            android:layout_width="@dimen/_1sdp"
+                                            android:layout_height="@dimen/_4sdp"
+                                            android:layout_gravity="top|center_horizontal"
+                                            android:background="@color/colorPrimary" />
+
+                                        <de.hdodenhof.circleimageview.CircleImageView
+                                            android:layout_width="@dimen/_10sdp"
+                                            android:layout_height="@dimen/_10sdp"
+                                            android:layout_gravity="center_horizontal"
+                                            android:layout_marginTop="@dimen/_4sdp"
+                                            android:src="@color/white"
+                                            app:civ_border_color="@color/colorPrimary"
+                                            app:civ_border_width="@dimen/_1sdp" />
+                                    </FrameLayout>
+                                </LinearLayout>
+
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/_10sdp"
+                                    android:layout_weight="0.8">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical"
+                                        android:paddingBottom="@dimen/_10sdp">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:alpha="0.5"
+                                            android:text="Order Finished  On"
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/_12ssp"
+                                            android:textStyle="bold" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:alpha="0.8"
+                                            android:text="Your Order is confirmed with our serviceman.Once Order Will place you'll get notification."
+                                            android:textColor="@color/colorPrimary"
+                                            android:textSize="@dimen/_10ssp"
+                                            android:visibility="invisible" />
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
                     </LinearLayout>
-
-
-
-
                 </androidx.cardview.widget.CardView>
             </LinearLayout>
         </LinearLayout>

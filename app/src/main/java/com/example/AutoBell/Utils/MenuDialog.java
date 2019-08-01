@@ -11,11 +11,13 @@ import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import androidx.cardview.widget.CardView;
-
 import com.example.AutoBell.Activity.NotificationActivity;
 import com.example.AutoBell.Activity.PackageActivity;
+import com.example.AutoBell.Activity.ProfileActivity;
 import com.example.AutoBell.Activity.QChatActivity;
+import com.example.AutoBell.Activity.TreatmentsActivity;
+import com.example.AutoBell.Activity.Welcome_AutobellActivity;
+import com.example.AutoBell.Activity.orders_autobellActivity;
 import com.example.autobell.R;
 
 
@@ -24,8 +26,7 @@ public class MenuDialog {
     public static String strActivityName;
     public static boolean flagOpenDialog;
 
-    public static void OpenMenuDialog(Activity activity)
-    {
+    public static void OpenMenuDialog(Activity activity) {
         Dialog dialog = new Dialog(activity, R.style.mytheme);
         dialog.getWindow()
                 .getAttributes().windowAnimations = R.style.DialogAnimationOutUpInUp;
@@ -40,8 +41,6 @@ public class MenuDialog {
 
         dialog.getWindow().setLayout(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
         dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
-
-
 
 
         dialog.getWindow().setGravity(Gravity.TOP);
@@ -88,12 +87,41 @@ public class MenuDialog {
             }
         });
 
+        ll_profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+                Intent i = new Intent(activity, ProfileActivity.class);
+                activity.startActivity(i);
+            }
+        });
+
+
+        ll_service.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+                Intent i = new Intent(activity, TreatmentsActivity.class);
+                activity.startActivity(i);
+            }
+        });
+
         ll_qchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 dialog.dismiss();
                 Intent i = new Intent(activity, QChatActivity.class);
+                activity.startActivity(i);
+            }
+        });
+
+        ll_orderhistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                dialog.dismiss();
+                Intent i = new Intent(activity, orders_autobellActivity.class);
                 activity.startActivity(i);
             }
         });
@@ -111,8 +139,7 @@ public class MenuDialog {
 
         ll_package.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
+            public void onClick(View v) {
                 dialog.dismiss();
                 Intent i = new Intent(activity, PackageActivity.class);
                 activity.startActivity(i);
@@ -120,11 +147,15 @@ public class MenuDialog {
         });
 
 
-
-
-
-
-
+        ll_logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+                activity.finishAffinity();
+                Intent i = new Intent(activity, Welcome_AutobellActivity.class);
+                activity.startActivity(i);
+            }
+        });
 
         flagOpenDialog = true;
         dialog.show();

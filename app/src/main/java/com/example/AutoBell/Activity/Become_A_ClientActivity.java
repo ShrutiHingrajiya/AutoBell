@@ -31,4 +31,13 @@ public class Become_A_ClientActivity extends AppCompatActivity {
         startActivity(i);
         //finish();
     }
+
+    @OnClick(R.id.btn_signup)
+    public void onViewClicked1() {
+
+        Intent i = new Intent(Become_A_ClientActivity.this, DashbordActivity.class);
+
+        startActivity(i);
+        //finish();
+    }
 }

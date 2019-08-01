@@ -51,7 +51,7 @@ public class NotificationActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                onBackPressed();
+                finish();
             }
         });
     }

@@ -2,6 +2,7 @@ package com.example.AutoBell.Activity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 
@@ -39,6 +40,16 @@ public class QChatActivity extends AppCompatActivity {
         recyclerChat.setLayoutManager(mLayoutManager);
         recyclerChat.setAdapter(adapter_broadcast);
 
+        this.setClickListner();
 
+    }
+
+    private void setClickListner() {
+        imgBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 }
